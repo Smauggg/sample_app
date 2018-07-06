@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title><%= yield :title %>| Ruby on Rails Tutorial Sample App</title>
-<%= csrf_meta_tags %>
-...
-</head>
-<body>
-... Hello Smaug
-</body>
-</html>
+<% provide :title, t(".title") %>
+<h1><%= t ".sample_app"%></h1>
+<p>
+  <%= t ".home_page"%>
+  <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+  <%= t ".sample_application"%>
+</p>
