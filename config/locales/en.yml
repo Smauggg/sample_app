@@ -73,6 +73,15 @@ en:
       success: "Welcome to the Sample App!"
     show:
       warning: "Not found user"
+  sessions:
+    new:
+      title: "Log In"
+      sign_up: "Sign up now!"
+      remember_me: "Remember me on this computer"
+      log_in: Log In
+      new_user: "New user? "
+    create:
+      danger: "Invalid email/password combination"
   application:
     tutorial: "Ruby on Rails Tutorial"
     news: "News"
@@ -85,6 +94,14 @@ en:
     home: "Home"
     help: "Help"
     login: "Log In"
+    profile: "Profile"
+    settings: "Settings"
+    account: "Account"
+    the: "The"
+    tutorial_rails: "Ruby on Rails Tutorial"
+    by: "by"
+    sample_app: "sample app"
+    users: "Users"
   shared:
     error: "error"
     form_constain: "The form contains"
