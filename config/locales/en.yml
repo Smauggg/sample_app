@@ -39,6 +39,7 @@ en:
       home_page: "This is the home page for the"
       tutorial: "Ruby on Rails Tutorial"
       welcome: "Welcome to the Sample App"
+      signup: "Sign up now!"
     about:
       title: "About"
       the: "The"
@@ -63,6 +64,15 @@ en:
       contact_rails: "Contact the Ruby on Rails Tutorial"
       about_sampleapp: " about the sample app at the"
       contact_page: "contact page"
+  users:
+    new:
+      title: "Sign Up"
+      signup_page: "This will be a signup page for new users."
+      create_accout: "Create my account"
+    create:
+      success: "Welcome to the Sample App!"
+    show:
+      warning: "Not found user"
   application:
     tutorial: "Ruby on Rails Tutorial"
     news: "News"
@@ -75,3 +85,6 @@ en:
     home: "Home"
     help: "Help"
     login: "Log In"
+  shared:
+    error: "error"
+    form_constain: "The form contains"
