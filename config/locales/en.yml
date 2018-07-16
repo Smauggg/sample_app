@@ -73,6 +73,24 @@ en:
       success: "Welcome to the Sample App!"
     show:
       warning: "Not found user"
+      you_sure: "You sure?"
+    edit:
+      title: "Edit User"
+      update_profile: "Update your profile"
+      save_changes: "Save changes"
+    update:
+      profile_update: "Profile updated"
+    index:
+      all_users: "All users"
+    destroy:
+      deleted_user: "User deleted"
+      delete_error: "Error"
+    logged_user:
+      please_login: "Please log in."
+      warning: "Not found user"
+    correct_user:
+      warning: "Not found user"
+    warning: "Not found user"
   sessions:
     new:
       title: "Log In"
