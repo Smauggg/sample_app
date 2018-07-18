@@ -71,6 +71,7 @@ en:
       create_accout: "Create my account"
     create:
       success: "Welcome to the Sample App!"
+      check_your_mail: "Please check your email to activate your account."
     show:
       warning: "Not found user"
       you_sure: "You sure?"
@@ -81,7 +82,7 @@ en:
     update:
       profile_update: "Profile updated"
     index:
-      all_users: "All users"
+      all_users: "All Users"
     destroy:
       deleted_user: "User deleted"
       delete_error: "Error"
@@ -96,10 +97,31 @@ en:
       title: "Log In"
       sign_up: "Sign up now!"
       remember_me: "Remember me on this computer"
+      forgot_password: "(Forgot Password)"
       log_in: Log In
       new_user: "New user? "
     create:
       danger: "Invalid email/password combination"
+      account_not_activated: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
+  password_resets:
+    new:
+      forgot_password: "Forgot Password"
+      submit: "Submit"
+    create:
+      email_sented: "Email sent with password reset instructions"
+      not_found_email: "Email address not found"
+    edit:
+      reset_password: "Reset Password"
+      update_password: "Update Password"
+    update:
+      not_empty: "Can't be empty"
+      reset_success: "Password has been reset."
+    check_expiration:
+      password_reset_expired: "Password reset has expired!"
   application:
     tutorial: "Ruby on Rails Tutorial"
     news: "News"
@@ -123,3 +145,20 @@ en:
   shared:
     error: "error"
     form_constain: "The form contains"
+  account_activation:
+    sample_app: "Sample App"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
+    hi: "Hi"
+    account: "Account activation"
+  password_reset:
+    reset_password: "Password reset"
+    click_link: "To reset your password click the link below:"
+    reset_pass: "Reset password"
+    expire: "This link will expire in two hours."
+    ignore_email: "If you did not request your password to be reset, please ignore this email and
+                    your password will stay as it is."
+    get_user:
+      warning: "Not found user"
+    valid_user:
+      warning: "Link invalid"
