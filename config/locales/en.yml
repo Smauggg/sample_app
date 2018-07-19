@@ -40,6 +40,7 @@ en:
       tutorial: "Ruby on Rails Tutorial"
       welcome: "Welcome to the Sample App"
       signup: "Sign up now!"
+      microposts_feed: "Micropost Feed"
     about:
       title: "About"
       the: "The"
@@ -72,9 +73,11 @@ en:
     create:
       success: "Welcome to the Sample App!"
       check_your_mail: "Please check your email to activate your account."
+      micropost_created: "Micropost created!"
     show:
       warning: "Not found user"
       you_sure: "You sure?"
+      microposts: "Microposts"
     edit:
       title: "Edit User"
       update_profile: "Update your profile"
@@ -86,12 +89,17 @@ en:
     destroy:
       deleted_user: "User deleted"
       delete_error: "Error"
+      micropost_deleted: "Micropost deleted!"
     logged_user:
       please_login: "Please log in."
       warning: "Not found user"
     correct_user:
       warning: "Not found user"
     warning: "Not found user"
+    logged_in_user: "Please log in."
+    picture_size:
+      less_than_5mb: "should be less than 5MB"
+
   sessions:
     new:
       title: "Log In"
@@ -144,7 +152,14 @@ en:
     users: "Users"
   shared:
     error: "error"
-    form_constain: "The form contains"
+    form: "The form contains"
+    view_my_profile: "view my profile"
+    micropost: "micropost"
+    post: "Post"
+    compose: "Compose new micropost..."
+  signup_error:
+    one: " %{count} error"
+    other: " %{count} errors"
   account_activation:
     sample_app: "Sample App"
     welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
@@ -162,3 +177,7 @@ en:
       warning: "Not found user"
     valid_user:
       warning: "Link invalid"
+  microposts:
+    posted: "Posted"
+    sure: "You sure?"
+    delete: "delete"
