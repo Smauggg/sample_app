@@ -5,7 +5,8 @@ class UsersController < ApplicationController
   before_action :load_user, except: %i(new create index)
 
   def index
-    @users = User.paginate(page: params[:page])
+    @users = User.paginate(page: params[:page],
+      per_page: Settings.users_per_page)
   end
 
   def show; end
@@ -17,9 +18,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = t ".success"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".check_your_mail"
+      redirect_to root_path
     else
       render :new
     end
@@ -28,7 +29,7 @@ class UsersController < ApplicationController
   def edit; end
 
   def update
-    if @user.update_attributes(user_params)
+    if @user.update_attributes user_params
       flash[:sucess] = t ".profile_update"
       redirect_to @user
     else

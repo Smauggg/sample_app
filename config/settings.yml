@@ -4,3 +4,4 @@ email_max: 255
 size_gravatar: 80
 size_gravatar_user: 50
 check_remember: 1
+users_per_page: 20
