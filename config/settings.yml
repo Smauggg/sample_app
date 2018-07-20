@@ -10,3 +10,4 @@ max_content: 140
 pic_size: 5
 resize_to_limit: 400
 megabytes: 1024
+gravatar_size_of_follow: 30

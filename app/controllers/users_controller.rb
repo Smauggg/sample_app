@@ -48,6 +48,18 @@ class UsersController < ApplicationController
     redirect_to users_path
   end
 
+  def following
+    @title = t ".follow"
+    @users = @user.following.paginate(page: params[:page])
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".follower"
+    @users = @user.followers.paginate(page: params[:page])
+    render :show_follow
+  end
+
   private
 
   def user_params
@@ -69,7 +81,7 @@ class UsersController < ApplicationController
   def load_user
     @user = User.find_by id: params[:id]
     return if @user
-    flash[:warning] = t ".warning"
+    flash[:warning] = t "users.warning"
     redirect_to root_path
   end
 end
