@@ -5,3 +5,8 @@ size_gravatar: 80
 size_gravatar_user: 50
 check_remember: 1
 users_per_page: 20
+expired_time: 2
+max_content: 140
+pic_size: 5
+resize_to_limit: 400
+megabytes: 1024
