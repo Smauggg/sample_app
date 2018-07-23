@@ -78,6 +78,8 @@ en:
       warning: "Not found user"
       you_sure: "You sure?"
       microposts: "Microposts"
+      follow: "Follow"
+      unfollow: "Unfollow"
     edit:
       title: "Edit User"
       update_profile: "Update your profile"
@@ -99,7 +101,10 @@ en:
     logged_in_user: "Please log in."
     picture_size:
       less_than_5mb: "should be less than 5MB"
-
+    following:
+      follow: "Following"
+    followers:
+      follower: "Followers"
   sessions:
     new:
       title: "Log In"
@@ -157,6 +162,7 @@ en:
     micropost: "micropost"
     post: "Post"
     compose: "Compose new micropost..."
+    view_my_profile: "view my profile"
   signup_error:
     one: " %{count} error"
     other: " %{count} errors"
